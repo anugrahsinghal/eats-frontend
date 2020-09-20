@@ -1,0 +1,112 @@
+body {
+  box-sizing: border-box;
+  color: rgb(20, 6, 6, 0.75);
+  /* display: flex; */
+  /* justify-content: center; */
+  min-height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    70deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 46, 9, 0.89059) 0%,
+    rgba(227, 161, 37, 1) 97%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+#button-container,
+#table-container {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+#fetch {
+  background-color: aquamarine;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 1em;
+  border-radius: 1.5em;
+  margin: 1em;
+  padding: 1em;
+  height: 2.6rem;
+}
+
+#restaurant-table {
+  display: none;
+  border-radius: 12px 5px 12px 5px;
+  overflow: hidden;
+  box-shadow: 20px 0 20px rgba(10, 10, 10, 0.5);
+  border-collapse: collapse;
+}
+
+/* table {
+  border: 0px;
+} */
+
+#restaurant-table th {
+  vertical-align: middle;
+  padding: 12px;
+}
+
+#restaurant-table td {
+  padding: 10px 10px;
+  height: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+}
+.hide {
+  display: none;
+}
+
+td:has(img) {
+  padding: 0;
+}
+
+img {
+  padding: 0;
+  max-width: 70px;
+  max-height: 70px;
+  border: 0;
+  border-radius: 40%;
+}
+
+img:hover {
+  box-shadow: 0 0 10px rgba(198, 224, 46, 0.795);
+}
+
+tr:hover {
+  cursor: pointer;
+  box-shadow: 20px 0 20px rgba(10, 10, 10, 0.5) inset;
+  font-weight: bolder;
+  color: rgb(20, 6, 6, 0.85);
+}
+
+#restaurant-table thead tr {
+  background-color: #5e151d;
+  color: white;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+}
+
+#restaurant-table tbody tr {
+  border-bottom: 1px solid #1c581a;
+}
+
+#restaurant-table tbody tr:nth-of-type(even) {
+  border-bottom: 1px solid #990012;
+}
+
+#restaurant-table tbody tr:last-of-type(even) {
+  border-bottom: 2.5px solid #990012;
+}
+
+tr {
+  border-radius: 12px 9px 12px 9px;
+}
+
+#table-container {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+}

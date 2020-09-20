@@ -1,0 +1,48 @@
+{
+  "restaurants": [
+    {
+      "restaurantId": "10",
+      "name": "AndhraSpice",
+      "city": "Hsr Layout",
+      "imageUrl": "https://images.pexels.com/photos/1268558/pexels-photo-1268558.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "latitude": 48.0547933447429,
+      "longitude": 76.25429541274355,
+      "opensAt": null,
+      "closesAt": null,
+      "attributes": ["Tamil", "South Indian"]
+    },
+    {
+      "restaurantId": "11",
+      "name": "Barbeque",
+      "city": "Btm Layout",
+      "imageUrl": "https://images.pexels.com/photos/161675/abstract-barbeque-bbq-beauty-161675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "latitude": 48.13791034568509,
+      "longitude": 76.32706997343507,
+      "opensAt": null,
+      "closesAt": null,
+      "attributes": ["Tamil", "South Indian"]
+    },
+    {
+      "restaurantId": "12",
+      "name": "Inchin",
+      "city": "Electronic City",
+      "imageUrl": "https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "latitude": 48.100564069968534,
+      "longitude": 76.30322611391706,
+      "opensAt": null,
+      "closesAt": null,
+      "attributes": ["Tamil", "South Indian"]
+    },
+    {
+      "restaurantId": "13",
+      "name": "Udupi Garden",
+      "city": "Electronic City",
+      "imageUrl": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "latitude": 48.179434125643326,
+      "longitude": 76.24094732716236,
+      "opensAt": null,
+      "closesAt": null,
+      "attributes": ["Udupi", "South Indian"]
+    }
+  ]
+}

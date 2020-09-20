@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <script async defer src="script.js"></script>
+  </head>
+  <body onload="clickmB()">
+    <div id="button-container">
+      <button id="fetch" type="Submit">Show Restaurants</button>
+    </div>
+    <div id="table-container">
+      <!-- style="visibility: hidden;" -->
+      <table id="restaurant-table">
+        <thead>
+          <tr>
+            <!-- Id is needed internally but can be hidden from user
+            thus populating in TBody but not in header
+            -->
+            <!-- <th class="hide">Id</th> -->
+            <th colspan="2">Name</th>
+            <th>City</th>
+            <th>Serves</th>
+          </tr>
+        </thead>
+
+        <tbody id="restaurant-table-body">
+          <!-- JS populates Restaurants here -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
